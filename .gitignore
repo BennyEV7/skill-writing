@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+*.egg-info/
+
+# Env and secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs and caches
+*.log
+.cache/
+.turbo/
+
+# Local agent session noise
+.grok/sessions/
