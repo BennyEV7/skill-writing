@@ -1,4 +1,4 @@
-# Clarity and grace — examples
+# Clarity and grace: examples
 
 ## Delay email
 

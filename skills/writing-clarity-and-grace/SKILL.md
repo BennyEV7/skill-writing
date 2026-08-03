@@ -4,11 +4,7 @@ description: >
   Write and revise external, people-facing communication using clarity and
   grace principles (actors as subjects, actions as verbs, old-to-new flow,
   cohesion, concision, emphasis, shape, audience fit). Inspired by practices
-  taught in Style: Ten Lessons in Clarity and Grace — original agent checklists
-  only, not book text. Use for emails, Slack/Teams messages, stakeholder
-  updates, blog posts, articles, marketing and landing copy, announcements,
-  customer support replies, sales messages, and any writing outside a project
-  repo. Trigger phrases: "write an email", "draft a message", "stakeholder
+  taught in "Style: Ten Lessons in Clarity and Grace" Use for emails, Slack/Teams messages, stakeholder updates, blog posts, articles, marketing and landing copy, announcements, customer support replies, sales messages, and any writing outside a project repo. Trigger phrases: "write an email", "draft a message", "stakeholder
   update", "blog post", "landing page", "announcement", "customer reply",
   "sales email", "make this clearer", "clarity and grace", "Style principles",
   "external communication", "rewrite for readers". Do not use for in-repo
@@ -24,7 +20,7 @@ description: >
 Produce **clear, readable, audience-fit prose** for **external communication**.
 
 This skill encodes **original agent instructions** based on well-known clarity
-principles popularized by *Style: Ten Lessons in Clarity and Grace*
+principles popularized by _Style: Ten Lessons in Clarity and Grace_
 (Williams/Bizup). It does **not** reproduce the book’s lesson text.
 
 ## Priority (highest first)
@@ -43,6 +39,8 @@ principles popularized by *Style: Ten Lessons in Clarity and Grace*
 
 ## When to use
 
+**Applies regardless of starting material.** Revising an existing draft and writing new prose from raw facts, notes, quotes, transcripts, or bullet points are both in scope. The output's audience and purpose decide the skill, not whether a draft already exists.
+
 - Emails, DMs, Slack/Teams, stakeholder updates
 - Blog posts, articles, newsletters
 - Marketing, landing pages, announcements, launch notes for people
@@ -60,19 +58,30 @@ If the task is in-project technical prose, load **writing-simplified-technical-e
 
 ## Default if unsure
 
-- **Outside** a repo or clearly external audience → this skill  
-- **Inside** a repo on technical docs/code prose → writing-simplified-technical-english  
+- **Outside** a repo or clearly external audience → this skill
+- **Inside** a repo on technical docs/code prose → writing-simplified-technical-english
 - Still unsure → ask one short question
+
+## Mixed audience default
+
+Some content serves both a technical and a non-technical audience in one piece (for example, a status update that mixes API details for engineers with a timeline note for stakeholders).
+
+- Default to **this skill** for overall structure, tone, and flow.
+- Keep technical clauses precise. Do not soften or generalize facts, error codes, config values, or numbers to fit a lighter tone.
+- State the default briefly if the user did not ask for one style (for example: "structured for a mixed audience; kept technical details precise").
+- If the piece is primarily an in-repo technical artifact with only a short human note attached (for example, a PR description), prefer **writing-simplified-technical-english** instead and say so.
+
+Use one stated default instead of improvising a different split each time.
 
 ## Intensity by genre
 
-| Genre | Intensity |
-| --- | --- |
-| Stakeholder email / status note | Clarity + concision; warm but direct |
-| Blog / article | Full shape: open, point, develop, close |
-| Marketing / landing | Clarity first; allow emphasis, rhythm, and CTA; not STE-flat |
-| Support reply | Empathy + clear next step; short paragraphs |
-| Sales | Reader benefit early; one ask; no hype fog |
+| Genre                           | Intensity                                                    |
+| ------------------------------- | ------------------------------------------------------------ |
+| Stakeholder email / status note | Clarity + concision; warm but direct                         |
+| Blog / article                  | Full shape: open, point, develop, close                      |
+| Marketing / landing             | Clarity first; allow emphasis, rhythm, and CTA; not STE-flat |
+| Support reply                   | Empathy + clear next step; short paragraphs                  |
+| Sales                           | Reader benefit early; one ask; no hype fog                   |
 
 ## Core principles (agent checklist)
 
@@ -80,62 +89,68 @@ Apply as a **diagnose → revise** loop. Do not lecture the user about the book.
 
 ### 1. Characters and actions
 
-- Put the **real actor** in the subject position  
-- Put the **real action** in the verb  
+- Put the **real actor** in the subject position
+- Put the **real action** in the verb
 - Prefer “The team decided…” over “A decision was made…”
 
 ### 2. Name the action (cut hollow nouns)
 
 - When a noun hides a verb, restore the verb if it clarifies:  
-  *decision → decide*, *analysis → analyze*, *implementation → implement*
+  _decision → decide_, _analysis → analyze_, _implementation → implement_
 - Keep a noun when it is the true topic (“The decision stands.”)
 
 ### 3. Old → new information
 
-- Start sentences with **familiar context**  
-- End with **new, important, or stressed** information  
+- Start sentences with **familiar context**
+- End with **new, important, or stressed** information
 - Avoid dumping novelty in the first three words unless for punch in marketing
 
 ### 4. Cohesion
 
-- Connect sentence starts to what came before (same topic thread)  
-- Use light transitions only when the jump is real  
-- Prefer topic continuity over decorative connectors (*furthermore*, *moreover*)
+- Connect sentence starts to what came before (same topic thread)
+- Use light transitions only when the jump is real
+- Prefer topic continuity over decorative connectors (_furthermore_, _moreover_)
 
 ### 5. Concision
 
 Delete or rewrite:
 
-- Doubled words (*each and every*, *first and foremost*)
-- Empty openers (*It is important to note that*, *The fact that*)
-- Hedges stacked without need (*somewhat*, *various*, *potentially* ×3)
-- Metadiscourse that adds no value (*In this email I will…*)
+- Doubled words (_each and every_, _first and foremost_)
+- Empty openers (_It is important to note that_, _The fact that_)
+- Hedges stacked without need (_somewhat_, _various_, _potentially_ ×3)
+- Metadiscourse that adds no value (_In this email I will…_)
 
 ### 6. Emphasis
 
-- Put the stress at the **end** of the sentence or paragraph  
-- Keep the main claim out of a weak trailing clause  
+- Put the stress at the **end** of the sentence or paragraph
+- Keep the main claim out of a weak trailing clause
 - One primary emphasis per sentence
 
 ### 7. Shape
 
-- **Open** with why the reader should care (one beat)  
-- State the **point early** (not after a long wind-up)  
-- **Develop** with short paragraphs (often 2–4 sentences)  
-- **Close** with the ask, next step, or takeaway  
+- **Open** with why the reader should care (one beat)
+- State the **point early** (not after a long wind-up)
+- **Develop** with short paragraphs (often 2–4 sentences)
+- **Close** with the ask, next step, or takeaway
 
 ### 8. Audience fit
 
-- Match formality to the relationship  
-- Prefer reader benefits and concrete outcomes over writer process  
-- For marketing: clarity + energy; avoid vague superlatives without proof  
-- For support: acknowledge → answer → action  
+- Match formality to the relationship
+- Prefer reader benefits and concrete outcomes over writer process
+- For marketing: clarity + energy; avoid vague superlatives without proof
+- For support: acknowledge → answer → action
+
+### 9. Fidelity to attribution
+
+- Keep every claim attached to whoever actually said or believed it in the source.
+- Do not turn a third party's quoted characterization, hedge, guess, or open question into the subject's own confident statement.
+- If the source marks something as unresolved, contested, or provisional, keep that status. Do not resolve it for them.
 
 ## Revise checklist
 
 Before finishing, scan for:
 
-- [ ] Abstract subjects (*consideration*, *utilization*) where a person/system should act
+- [ ] Abstract subjects (_consideration_, _utilization_) where a person/system should act
 - [ ] Nominalizations that smother the action
 - [ ] New information dumped before context
 - [ ] Broken topic flow between sentences
@@ -143,6 +158,7 @@ Before finishing, scan for:
 - [ ] Main point buried; weak endings
 - [ ] Wrong length for the channel (essay-length Slack message, etc.)
 - [ ] Full rewrite when only a small edit was requested
+- [ ] A source's hedge, question, or someone else's characterization rewritten as the subject's own confident claim
 
 ## Before / after examples
 
@@ -170,7 +186,7 @@ Next week we aim to ship the export to staging. The risk is third-party API rate
 Your issue has been looked into and it was found that the problem is related to cache settings which should be adjusted.
 
 **After:**  
-Thanks for the report — you hit a cache settings issue.  
+Thanks for the report. You hit a cache settings issue.  
 Please set `CACHE_TTL` to `60` and restart the app. If it still fails, send the last 20 log lines and I will dig further.
 
 ### Landing blurb (clarity + light persuasion)
@@ -186,8 +202,8 @@ Our tool turns project notes into a weekly status email in one click.
 
 If the user asks to tighten one paragraph or fix tone in one place:
 
-- **Do not** rewrite the entire piece unless asked  
-- Preserve the user’s voice when they have a clear voice already  
+- **Do not** rewrite the entire piece unless asked
+- Preserve the user’s voice when they have a clear voice already
 
 ## Optional depth
 
@@ -200,6 +216,6 @@ Only open these for long drafts or weak first passes.
 
 ## What not to claim
 
-- Do **not** paste or paraphrase the book chapter-by-chapter  
-- Do **not** say the output “follows Williams lesson N”  
+- Do **not** paste or paraphrase the book chapter-by-chapter
+- Do **not** say the output “follows Williams lesson N”
 - You may say “clearer, more direct prose” or “revised for clarity and flow”

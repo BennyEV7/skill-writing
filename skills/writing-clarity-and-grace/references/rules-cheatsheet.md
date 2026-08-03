@@ -1,4 +1,4 @@
-# Clarity and grace — revision cheatsheet
+# Clarity and grace: revision cheatsheet
 
 Use when a draft feels muddy. Diagnose first; then revise.
 
@@ -9,7 +9,7 @@ Use when a draft feels muddy. Diagnose first; then revise.
 3. Does each sentence start with something the reader already knows?
 4. Does each sentence end on the news or stress?
 5. Can any sentence lose 20% of its words without losing meaning?
-6. Where is the main point — early enough?
+6. Where is the main point? early enough?
 7. What must the reader do after reading?
 
 ## Common rewrites
@@ -29,7 +29,7 @@ Use when a draft feels muddy. Diagnose first; then revise.
 
 | Channel | Default shape |
 | --- | --- |
-| Slack/Teams | 2–6 short sentences; bullets if >3 items |
+| Slack/Teams | 2-6 short sentences; bullets if >3 items |
 | Email | Greeting optional; point in first screen; clear ask |
 | Stakeholder update | Done / Next / Risk (or Ask) |
 | Blog intro | Hook + promise + roadmap in ~1 short section |
@@ -41,7 +41,7 @@ Use when a draft feels muddy. Diagnose first; then revise.
 - **More formal:** full sentences, fewer contractions, titles/roles clear  
 - **More warm:** one human acknowledgment, then substance  
 - **More urgent:** deadline and consequence early; still polite  
-- **More persuasive:** concrete outcome, proof, single CTA — not adjective piles  
+- **More persuasive:** concrete outcome, proof, single CTA  
 
 ## Avoid
 
