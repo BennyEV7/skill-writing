@@ -1,50 +1,55 @@
 # Trigger test run — TEMPLATE
 
-Copy this file to `YYYY-MM-DD_<agent>_T1-T5.md` and fill it in.
+Copy this file to `YYYY-MM-DD_<agent>_<scope>.md` and fill it in.
 
 - **Date:** YYYY-MM-DD
 - **Agent:** (Grok / Claude Code / Codex / other)
 - **Agent version / model (if known):**
 - **Skills discoverable?** yes / no / unknown
-- **Mode:** chat-only (recommended) / allowed file edits
+- **Mode:** cold (two-turn) / same-thread warm / supervised
 - **Operator:**
 
 ## Summary
 
-| ID | Result | Skill claimed | Skill expected | Notes |
-| --- | --- | --- | --- | --- |
-| T1 | pass / fail / skip | | STE | |
-| T2 | pass / fail / skip | | Style | |
-| T3 | pass / fail / skip | | STE override | |
-| T4 | pass / fail / skip | | Style override | |
-| T5 | pass / fail / skip | | small-edit | |
-| T6 | pass / fail / skip | | | optional |
-| T7 | pass / fail / skip | | | optional |
-| T8 | pass / fail / skip | | | optional |
+| ID | Result | Mode | Skill claimed (turn 2) | Skill load UI (turn 1) | Skill expected | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| T1 | pass / weak pass / fail / skip / inconclusive | | | | STE | |
+| T2 | pass / weak pass / fail / skip / inconclusive | | | | Style | |
+| T3 | pass / fail / skip | | | | STE override | |
+| T4 | pass / fail / skip | | | | Style override | |
+| T5 | pass / fail / skip | | | | small-edit | |
+| T6 | pass / fail / skip | | | | | optional |
+| T7 | pass / fail / skip | | | | | optional |
+| T8 | pass / fail / skip | | | | | optional |
 
-**Phase 3 gate (T1–T5 all pass on this agent):** yes / no
+**Cold auto-invoke (T1 + T2 strong pass on this agent):** yes / no / partial  
+**Phase 3 gate note:** (e.g. strong cold T1–T2, or only warm/supervised)
 
 ## Cases
 
 ### T1
 
-- **Result:** pass / fail / skip
-- **Skill claimed (quote):**
-- **Why claimed (quote):**
+- **Result:** pass / weak pass / fail / skip / inconclusive
+- **Mode:** cold two-turn / warm / supervised
+- **Turn 1 — skill load UI (if any):**
+- **Turn 1 — prose matches expected style?** yes / no
+- **Turn 2 — skill claimed (quote):**
+- **Turn 2 — why claimed (quote):**
 - **Other skills claimed:**
-- **Prose matches expected style?** yes / no
 - **Notes:**
-- **Excerpt (optional):**
+- **Draft excerpt (optional):**
 
 ### T2
 
-- **Result:** pass / fail / skip
-- **Skill claimed (quote):**
-- **Why claimed (quote):**
+- **Result:** pass / weak pass / fail / skip / inconclusive
+- **Mode:** cold two-turn / warm / supervised
+- **Turn 1 — skill load UI (if any):**
+- **Turn 1 — prose matches expected style?** yes / no
+- **Turn 2 — skill claimed (quote):**
+- **Turn 2 — why claimed (quote):**
 - **Other skills claimed:**
-- **Prose matches expected style?** yes / no
 - **Notes:**
-- **Excerpt (optional):**
+- **Draft excerpt (optional):**
 
 ### T3
 

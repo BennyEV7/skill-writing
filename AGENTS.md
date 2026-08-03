@@ -17,8 +17,9 @@ Tool-specific files (e.g. `CLAUDE.md`) should only point here — do not maintai
 **skill-writing** — Author and maintain global writing skills for AI agents (Grok, Claude Code, Codex).
 
 - **Is:** Canonical source for agent writing skills: STE-inspired technical prose and Style/clarity external prose.
-- **Is:** Install scripts and docs so the same skills work across multiple agents.
+- **Is:** Docs and a trigger-test harness under `testing/` so the same skills can be checked across agents.
 - **Is not:** A full ASD-STE100 compliance product or a reproduction of copyrighted style manuals.
+- **Is not:** An automated installer (skills reach agent homes only by human junction/copy).
 - **Constraint:** Skills must stay lean, portable (`SKILL.md` standard), and legally careful (inspired/distilled content only).
 
 ## Audience and tone
@@ -34,6 +35,7 @@ Tool-specific files (e.g. `CLAUDE.md`) should only point here — do not maintai
 - Use the **writing-clarity-and-grace** skill for external-facing drafts (emails, posts, marketing) if you write those here.
 - Priority: explicit user request > this file > writing skills.
 - **Composition:** domain skills own workflow and facts; writing skills own prose quality only. Do not let a writing skill override another skill’s required structure.
+- Trigger tests live under `testing/` (see `testing/TRIGGER-TESTS.md`). Fixtures in `testing/testing-files/` are neutral (fictional product); do not replace them with text about writing skills when running cold-start tests.
 
 ## Project memory
 

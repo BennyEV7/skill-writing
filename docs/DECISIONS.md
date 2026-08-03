@@ -6,6 +6,16 @@ Format: newest first. Keep each entry short. To reverse a decision, add a new en
 
 ---
 
+## D-011 — Neutral test fixtures under `testing/`
+
+- **Date:** 2026-08-03
+- **Status:** Accepted
+- **Decision:** Trigger tests, results, and fixtures live under `testing/`. Fixture text uses a fictional warehouse product (Northline Inventory), not writing-skills content. Cold-start prompts must not prime agents with meta text about skills or this harness.
+- **Why:** Skill-themed fixtures can hide cold-start routing failures.
+- **Consequences:** Do not use this repo’s real README as the T1 cold-start source. Prefer `testing/testing-files/`.
+
+---
+
 ## D-010 — No automated installer
 
 - **Date:** 2026-08-02

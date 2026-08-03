@@ -25,8 +25,7 @@ Skill **content** (`SKILL.md` + references) is portable across agents. There is 
 | [docs/PLAN.md](docs/PLAN.md) | Phased roadmap |
 | [docs/STATUS.md](docs/STATUS.md) | What’s true right now |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Lasting choices and why |
-| [docs/TRIGGER-TESTS.md](docs/TRIGGER-TESTS.md) | Trigger matrix and acceptance criteria |
-| [docs/test-results/](docs/test-results/) | Per-run trigger test logs |
+| [testing/](testing/) | Trigger tests, fixtures, and run results |
 | [AGENTS.md](AGENTS.md) | Shared rules for AI coding agents |
 
 ## AI agents
@@ -74,7 +73,7 @@ Invoke explicitly with:
 1. Read `docs/CHARTER.md` and `docs/PLAN.md`.
 2. Edit skill content only under `skills/`.
 3. Commit meaningful skill changes (this repo is the rollback story).
-4. Use [docs/TRIGGER-TESTS.md](docs/TRIGGER-TESTS.md) when checking auto-invocation.
+4. Use [testing/TRIGGER-TESTS.md](testing/TRIGGER-TESTS.md) when checking auto-invocation (neutral fixtures in `testing/testing-files/`).
 
 ## License / use
 

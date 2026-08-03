@@ -1,6 +1,6 @@
 # Charter — skill-writing
 
-**Last updated:** 2026-08-02  
+**Last updated:** 2026-08-03  
 **Status:** Active
 
 ## One-liner
@@ -37,10 +37,11 @@ Agents default to uneven, verbose, or inconsistent prose. Inside projects, techn
 
 ## Success looks like
 
-- Both skills exist under `skills/` and install into all three agent skill homes.
-- Agents default to STE-inspired for in-repo technical prose and Style for external comms.
+- Both skills exist under `skills/`; agent homes use human-supervised junctions or copies (no automated installer).
+- Agents default to STE-inspired for in-repo technical prose and Style for external comms (cold auto-invoke measured under `testing/`).
 - Project docs no longer show template placeholders.
 - Skills state limits clearly (inspired / distilled).
+- Trigger tests use neutral fixtures so cold-start routing is not primed by skill-meta text.
 
 ## Principles
 
@@ -54,3 +55,4 @@ Agents default to uneven, verbose, or inconsistent prose. Inside projects, techn
 
 - Whether optional example banks need expansion after real use
 - Whether a short AGENTS.md snippet should be published for other projects later
+- Whether multi-agent T5 (small-edit) still holds after the testing/ move

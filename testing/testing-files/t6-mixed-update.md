@@ -1,0 +1,3 @@
+# Weekly note (mixed audience)
+
+Progress is being made on a number of fronts. The sync job was refactored to utilize batching which should facilitate improved throughput when warehouse count payloads are large. Stakeholders should be aware that there may potentially be some impact to reporting freshness during the rollout window. Also the API now returns 429 under rate limit conditions and clients must implement backoff. Going forward we will continue to monitor the situation and circle back with additional details as they become available regarding both the technical workstream and the customer-facing timeline implications.

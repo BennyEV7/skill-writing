@@ -1,6 +1,6 @@
 # Plan — skill-writing
 
-**Last updated:** 2026-08-02  
+**Last updated:** 2026-08-03  
 **Horizon:** Safe personal use of global writing skills (no automated installer)
 
 ## North star
@@ -38,12 +38,13 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 
 ### Phase 3 — Smoke-check
 
-- [x] Matrix and acceptance criteria in `docs/TRIGGER-TESTS.md`
-- [x] Skill self-report required on every case; results folder `docs/test-results/`
-- [x] T1–T5 pass on at least one agent (Grok supervised run: `docs/test-results/2026-08-02_grok_T1-T5.md`)
-- [ ] Optional: cold-start auto-invoke check (fresh session, no matrix priming)
-- [ ] Optional: Claude / Codex rows
-- [ ] Optional: T6–T8
+- [x] Matrix and acceptance criteria in `testing/TRIGGER-TESTS.md`
+- [x] Two-turn cold-start protocol; results in `testing/test-results/`
+- [x] Neutral fixtures in `testing/testing-files/` (not writing-skill-themed)
+- [x] T1–T5 pass on at least one agent (Grok supervised: `2026-08-02_grok_T1-T5.md`)
+- [x] Cold-start T1 + T2 (two-turn) on ≥1 agent — Grok, Claude, Codex strong pass (`2026-08-03-001/SCORED.md`)
+- [x] Multi-agent rows for T1–T4 and T6–T8 (pass ×3 in `SCORED.md`)
+- [ ] Multi-agent **T5** (small-edit) re-run after testing/ move
 
 ### Phase 4 — Later / optional
 
@@ -55,9 +56,9 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 
 ## Near-term next actions
 
-1. Run T1–T5 on Grok; log results in `docs/TRIGGER-TESTS.md`.
-2. Adjust skill descriptions if auto-invocation misses.
-3. Commit after each meaningful skill edit.
+1. Run T5 on Grok, Claude, and Codex; store transcripts and update `SCORED.md` or a new results file.
+2. Adjust skill descriptions only if a real miss appears.
+3. Keep Phase 4 optional until personal use shows a gap.
 
 ## Explicitly later / maybe never
 

@@ -1,0 +1,3 @@
+# Internal briefing notes (source for customer email)
+
+Regarding the launch that was previously communicated, there has been identification of a billing edge case during final testing activities. Consideration has been given to various options and a decision has been made that a delay of one week will be necessary in order to ensure that the issue is addressed prior to go-live. The new target date that is currently anticipated is next Friday. Customers should be informed in a manner that is professional and it would be good if next steps were mentioned somehow. No action is strictly required from the customer at this time unless they have questions.

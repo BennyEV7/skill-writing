@@ -1,0 +1,1 @@
+Northline Inventory contains modules. Modules are components of the system. Users can use them. Edit the configuration files under config. Restart the service after changes. Stock counts are stored in the database. Reports can be run. Administrators manage access.
