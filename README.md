@@ -26,6 +26,7 @@ Skill **content** (`SKILL.md` + references) is portable across agents. There is 
 | [docs/STATUS.md](docs/STATUS.md) | What’s true right now |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | Lasting choices and why |
 | [docs/TRIGGER-TESTS.md](docs/TRIGGER-TESTS.md) | Trigger matrix and acceptance criteria |
+| [docs/test-results/](docs/test-results/) | Per-run trigger test logs |
 | [AGENTS.md](AGENTS.md) | Shared rules for AI coding agents |
 
 ## AI agents

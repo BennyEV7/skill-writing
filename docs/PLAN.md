@@ -39,7 +39,9 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 ### Phase 3 — Smoke-check
 
 - [x] Matrix and acceptance criteria in `docs/TRIGGER-TESTS.md`
-- [ ] T1–T5 pass on at least one agent (record results)
+- [x] Skill self-report required on every case; results folder `docs/test-results/`
+- [x] T1–T5 pass on at least one agent (Grok supervised run: `docs/test-results/2026-08-02_grok_T1-T5.md`)
+- [ ] Optional: cold-start auto-invoke check (fresh session, no matrix priming)
 - [ ] Optional: Claude / Codex rows
 - [ ] Optional: T6–T8
 

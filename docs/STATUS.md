@@ -1,11 +1,11 @@
 # Status — skill-writing
 
 **Last updated:** 2026-08-02  
-**Phase:** 3 — Smoke-check (matrix ready; live runs pending)
+**Phase:** 3 — Smoke-check (Grok T1–T5 supervised pass recorded)
 
 ## Current state (plain English)
 
-Two writing skills live under `skills/` with composition rules, private-use docs, and a trigger-test matrix. The automated installer was **removed** after risk review. Agent skill homes (if already junctioned) still work; further installs are human-only. Git history is being established for rollback.
+Two writing skills live under `skills/` with composition rules, private-use docs, and a trigger-test matrix. Grok completed a supervised T1–T5 run (chat-only drafts + results log). That run does not fully prove cold-start auto-invocation. The automated installer remains removed; installs stay human-only.
 
 ## What exists
 
@@ -16,7 +16,8 @@ Two writing skills live under `skills/` with composition rules, private-use docs
 | `skills/writing-clarity-and-grace` | Present |
 | Installer | **Removed** (by design) |
 | `setup-project-files.md` | **Removed** |
-| `docs/TRIGGER-TESTS.md` | Present |
+| `docs/TRIGGER-TESTS.md` | Present (includes skill self-report) |
+| `docs/test-results/` | Present; `2026-08-02_grok_T1-T5.md` recorded |
 | Git | Initialized as part of hardening |
 
 ## What’s working
@@ -27,15 +28,26 @@ Two writing skills live under `skills/` with composition rules, private-use docs
 
 ## What’s blocked / unknown
 
-- Live T1–T5 results not yet recorded for any agent
+- Cold-start auto-invocation (fresh session, no matrix priming) not yet measured
+- Claude Code / Codex T1–T5 not run
 
 ## Next 1–3 steps
 
-1. Run trigger tests T1–T5 on Grok
-2. Log pass/fail in `docs/TRIGGER-TESTS.md`
-3. Tighten descriptions only if tests fail
+1. Optional: re-run T1–T2 in a fresh Grok session without naming skills
+2. Run T1–T5 on Claude Code and/or Codex; log under `docs/test-results/`
+3. Tighten skill descriptions only if cold-start or other agents fail
 
 ## Session log (newest first)
+
+### 2026-08-02 — Grok T1–T5 supervised run
+
+- Executed T1–T5 chat-only with skill self-report
+- Logged `docs/test-results/2026-08-02_grok_T1-T5.md` — all pass (auto-invoke caveat noted)
+
+### 2026-08-02 — Trigger test logging
+
+- Required skill self-report (“which skill and why”) on every trigger case
+- Added `docs/test-results/` with README and `_template.md`
 
 ### 2026-08-02 — Codex remediation
 
