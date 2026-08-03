@@ -6,6 +6,16 @@ Format: newest first. Keep each entry short. To reverse a decision, add a new en
 
 ---
 
+## D-012 — ChatGPT uses a paste pack, not a third skill tree
+
+- **Date:** 2026-08-03
+- **Status:** Accepted
+- **Decision:** Support ChatGPT via a single always-on custom-instructions file (`chatgpt-custom-instructions.md`) that merges technical (STE-inspired) and people-facing (Style) registers. Do not maintain a separate ChatGPT skill tree under `skills/`.
+- **Why:** ChatGPT has no portable `SKILL.md` auto-routing like Grok/Claude/Codex skill homes. One paste block matches how custom instructions work.
+- **Consequences:** Canonical agent skills remain the two folders under `skills/`. Keep the ChatGPT pack in sync when hard rules change; it is a convenience export, not a third source of truth.
+
+---
+
 ## D-011 — Neutral test fixtures under `testing/`
 
 - **Date:** 2026-08-03

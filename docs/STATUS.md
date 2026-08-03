@@ -1,79 +1,62 @@
 # Status — skill-writing
 
 **Last updated:** 2026-08-03  
-**Phase:** 3 — Smoke-check (cold auto-invoke met; multi-agent T5 still open)
+**Phase:** 3 — Smoke-check complete for cold auto-invoke; skill rules expanded; multi-agent T5 still open
 
 ## Current state (plain English)
 
-Two writing skills live under `skills/`. Trigger tests, neutral fixtures, and scored results live under `testing/`. Multi-agent batch `testing/test-results/2026-08-03-001/` (see `SCORED.md`): **cold T1 + T2 strong pass** and **T3–T4, T6–T8 pass** on Grok, Claude, and Codex. **T5** was not in that batch (earlier supervised Grok pass only). Installer remains removed by design.
+Two writing skills live under `skills/` with **expanded rules and examples** (Style: elegance, fidelity, emphasis devices, correctness vs folklore; STE: word/tense/paragraph caps). Trigger tests and scored multi-agent results live under `testing/`. Cold T1–T2 and T3–T4/T6–T8 passed on Grok, Claude, and Codex (`2026-08-03-001/SCORED.md`). **T5** multi-agent re-run still open. Optional **ChatGPT** one-block custom instructions live at repo root (`chatgpt-custom-instructions.md`). Installer remains removed.
 
 ## What exists
 
 | Area | State |
 | --- | --- |
-| Docs / agent rules | Customized; aligned with `testing/` layout |
-| `skills/writing-simplified-technical-english` | Present |
-| `skills/writing-clarity-and-grace` | Present |
+| Docs / agent rules | Aligned with `testing/` + current skill scope |
+| `skills/writing-simplified-technical-english` | Present; hard rules + cheatsheet expanded |
+| `skills/writing-clarity-and-grace` | Present; principles 9–11 + cheatsheet/examples expanded |
+| `chatgpt-custom-instructions.md` | Paste pack for ChatGPT (merged registers) |
 | Installer | **Removed** (by design) |
-| `testing/TRIGGER-TESTS.md` | Two-turn cold protocol, rubrics, fixture paths |
-| `testing/testing-files/` | Neutral Northline Inventory fixtures T1–T8 |
-| `testing/test-results/` | Supervised Grok T1–T5 + multi-agent `2026-08-03-001/` |
+| `testing/` | Neutral fixtures, two-turn cold protocol, multi-agent scores |
 | Git | Remote `origin` (private GitHub) |
 
 ## What’s working
 
-- Two-skill split with when/when-not and small-edit rules
-- Domain vs writing composition documented
-- Neutral fixtures + two-turn cold protocol
-- **Cold auto-invoke T1 (STE) and T2 (Style)** on Grok, Claude, Codex
-- Overrides (T3–T4) and optional cases (T6–T8) pass on all three agents in `SCORED.md`
+- Two-skill split with when/when-not, composition, and small-edit rules
+- Neutral fixtures + cold auto-invoke measured (T1/T2 ×3 agents)
+- Richer Style and STE guidance for harder revision moves
+- ChatGPT path without skill routing (single instruction block)
 
 ## What’s blocked / unknown
 
-- Multi-agent **T5** (small-edit only) not re-run after the testing/ move
-- Independent scorer note: `2026-08-03-001/Score-Codex.md` may differ slightly from `SCORED.md` on a few cells; treat `SCORED.md` as the operator-maintained summary
+- Multi-agent **T5** (small-edit) not re-run after testing/ move and rule expansions
+- Whether expanded rules need a light cold re-smoke (optional; not required unless quality drops)
+- Independent `Score-Codex.md` may differ slightly from `SCORED.md` on a few cells
 
 ## Next 1–3 steps
 
-1. Run T5 on Grok, Claude, and Codex; log under `testing/test-results/`
-2. Tighten skill descriptions only if T5 or a future cold retest fails
-3. Optional: expand example banks (Phase 4)
+1. Run multi-agent T5; log under `testing/test-results/`
+2. Optional: quick cold T1/T2 spot-check after rule expansions if agents misbehave
+3. Phase 4 only if personal use shows a gap (more examples, formal license, etc.)
 
 ## Session log (newest first)
 
+### 2026-08-03 — Skill rule expansions + ChatGPT pack (other agent)
+
+- Style: passive-OK nuance, cohesion naming, cleft/modifier emphasis, longer-shape, fidelity/honesty, elegance, correctness vs folklore; cheatsheet + examples extended
+- STE: ~20/25 word caps, noun-stack cap, tense control, no bare telegrams, short paragraphs; cheatsheet aligned
+- Added `chatgpt-custom-instructions.md` (merged technical + people-facing registers for ChatGPT custom instructions)
+- Prior partial commit on remote: `f1226e1` (“update rules and examples”)
+
 ### 2026-08-03 — Admin close-out + multi-agent scores on git
 
-- Finalized STATUS/PLAN/CHARTER/AGENTS for post-score state
-- Committed `testing/` layout, fixtures, transcripts, and `SCORED.md`
+- `testing/` layout, fixtures, `2026-08-03-001/SCORED.md` on `master`
+- D-011 neutral fixtures; cold Phase 3 gate met
 
-### 2026-08-03 — Rescore Codex T8 retest
+### 2026-08-03 — Multi-agent scoring batch
 
-- `t8-Codex`: Style skill + benefit-led blurb → **pass**
-- T6–T8 complete for all three agents in `SCORED.md`
+- Cold T1+T2 strong pass ×3; T3–T4, T6–T8 pass ×3 after Codex fixes/retest
+- T5 not in batch
 
-### 2026-08-03 — Rescore Codex T4/T6/T7 after log fixes
+### 2026-08-02 — Foundation + hardening
 
-- T4 Style override, T6 justified STE default, T7 facts+Style → pass
-
-### 2026-08-03 — Score multi-agent run 2026-08-03-001
-
-- Cold T1+T2 **pass (strong)** ×3 agents; Phase 3 cold gate **met**
-- Detail: `testing/test-results/2026-08-03-001/SCORED.md`
-
-### 2026-08-03 — testing/ layout + neutral fixtures
-
-- Moved trigger tests from `docs/` to `testing/`
-- Added `testing/testing-files/` (Northline Inventory; not writing-skills meta)
-- D-011 recorded
-
-### 2026-08-03 — Two-turn cold-start protocol
-
-- Self-report is turn 2 only for cold T1/T2
-
-### 2026-08-02 — Grok T1–T5 supervised run
-
-- Logged at `testing/test-results/2026-08-02_grok_T1-T5.md` (supervised; auto-invoke caveat)
-
-### 2026-08-02 — Codex remediation + foundation
-
-- No installer; private use; composition rules; skills authored
+- Both skills authored; installer removed; private use; composition rules

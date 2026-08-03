@@ -17,6 +17,14 @@ These are **inspired/distilled** guides for agents. They are not full ASD-STE100
 
 Skill **content** (`SKILL.md` + references) is portable across agents. There is **no installer** in this repo (deliberate: automated install can destroy local skill directories).
 
+### ChatGPT
+
+ChatGPT has no skill-folder auto-routing. Use the paste pack:
+
+- [`chatgpt-custom-instructions.md`](chatgpt-custom-instructions.md) — merge of both registers for **Settings → Personalization → Custom instructions**
+
+That file is a convenience export. Canonical rules stay under `skills/`.
+
 ## Project docs
 
 | Doc | Purpose |

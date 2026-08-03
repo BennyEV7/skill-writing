@@ -53,6 +53,7 @@ Agents default to uneven, verbose, or inconsistent prose. Inside projects, techn
 
 ## Open questions
 
-- Whether optional example banks need expansion after real use
+- Whether optional example banks need more expansion after real use
 - Whether a short AGENTS.md snippet should be published for other projects later
-- Whether multi-agent T5 (small-edit) still holds after the testing/ move
+- Whether multi-agent T5 (small-edit) still holds after the testing/ move and rule expansions
+- How often the ChatGPT paste pack should be refreshed vs. agent skills

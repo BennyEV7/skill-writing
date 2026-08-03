@@ -18,9 +18,10 @@ Tool-specific files (e.g. `CLAUDE.md`) should only point here — do not maintai
 
 - **Is:** Canonical source for agent writing skills: STE-inspired technical prose and Style/clarity external prose.
 - **Is:** Docs and a trigger-test harness under `testing/` so the same skills can be checked across agents.
+- **Is:** Optional `chatgpt-custom-instructions.md` paste pack for ChatGPT (merged registers; not a third skill under `skills/`).
 - **Is not:** A full ASD-STE100 compliance product or a reproduction of copyrighted style manuals.
 - **Is not:** An automated installer (skills reach agent homes only by human junction/copy).
-- **Constraint:** Skills must stay lean, portable (`SKILL.md` standard), and legally careful (inspired/distilled content only).
+- **Constraint:** Skills must stay lean, portable (`SKILL.md` standard), and legally careful (inspired/distilled content only). When hard rules change under `skills/`, update the ChatGPT pack if the change should apply there too.
 
 ## Audience and tone
 

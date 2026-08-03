@@ -71,20 +71,22 @@ If the task is external people-facing communication, load **writing-clarity-and-
 
 ## Hard rules
 
-1. **One main idea per sentence.** Prefer short sentences. Split stacked clauses.
+1. **One main idea per sentence.** Prefer short sentences: about 20 words or fewer for steps/instructions, about 25 or fewer for descriptive prose. Split stacked clauses.
 2. **Put the actor and action early.** Prefer active voice. Use imperative for steps (“Click Save.”).
 3. **Same meaning → same words.** Do not switch synonyms for the same technical action or object in one doc (*start* vs *launch* vs *initiate*).
 4. **Prefer concrete verbs.** Avoid vague fillers: *ensure, utilize, facilitate, leverage, perform, handle* when a precise verb exists.
-5. **Avoid noun stacks.** Prefer “configuration of the server” or “server configuration” over long stacked modifiers that hide the head noun.
+5. **Avoid noun stacks.** Cap stacked nouns before a head noun at three; prefer “configuration of the server” or “server configuration” over longer chains that hide the head noun.
 6. **Make pronouns clear.** Replace ambiguous *it / this / they* with the noun when needed.
 7. **Limit jargon.** If a term is required, define it once, then reuse the same term.
 8. **Do not rewrite protected tokens:** code identifiers, APIs, file paths, commands, error strings, brand names, issue IDs, URLs.
 9. **Lists for procedures.** Numbered steps for sequences; bullets for unordered facts.
 10. **Warnings first** when safety or data loss matters.
+11. **Control tense.** Imperative for steps (“Open the file.”). Simple present for states and behavior (“The service returns 404.”). Simple past for completed events. Avoid future “will” and progressive “-ing” forms in procedures.
+12. **Do not strip sentences bare.** Cutting articles, verbs, or subjects to save words adds ambiguity, not clarity.
+13. **Keep paragraphs short.** About six sentences per paragraph, one topic each. Start a new paragraph when the topic shifts.
 
 ## Soft rules (prefer, do not over-apply)
 
-- Prefer present tense for states and behaviors; imperative for instructions
 - Prefer positive form (“Enable X”) over multiple negatives when clear
 - Prefer “must / must not” for requirements; avoid decorative modal stacks
 - Prefer articles and full words in docs; abbreviations only after definition (except ubiquitous ones: API, URL, HTTP, JSON, CLI)

@@ -35,3 +35,27 @@ Just checking in to see if you had a chance to look things over and if there are
 **After:**  
 Did the pilot plan I sent Friday work for your ops team?  
 If useful, I can join a 20-minute call this week to map it to your current workflow. Which day is better: Tue or Thu?
+
+## Emphasis with a cleft sentence
+
+**Before:**  
+The frontend team got blamed for the outage, but the payment API was actually what broke.
+
+**After:**  
+It was the payment API that broke, not the frontend. The team spent Tuesday clearing up the confusion instead of fixing the real issue.
+
+## Resumptive modifier to add weight without a new sentence
+
+**Before:**  
+We shipped the billing export two weeks early. It took three sprints of rework to get the retry logic right.
+
+**After:**  
+We shipped the billing export two weeks early, an export that took three sprints of rework to get the retry logic right.
+
+## Fixing elegant variation that hid which system was meant
+
+**Before:**  
+The API queues the job, then the service checks the queue every 30 seconds, and the endpoint marks it complete once the worker finishes.
+
+**After:**  
+The API queues the job, checks the queue every 30 seconds, and marks it complete once the worker finishes.

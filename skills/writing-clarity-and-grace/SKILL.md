@@ -92,6 +92,7 @@ Apply as a **diagnose → revise** loop. Do not lecture the user about the book.
 - Put the **real actor** in the subject position
 - Put the **real action** in the verb
 - Prefer “The team decided…” over “A decision was made…”
+- Passive and nominalized phrasing are still the right call sometimes: actor unknown or unimportant, keeping the same topic running across sentences, or deliberately pushing stress to the sentence's end. Don't strip them on reflex.
 
 ### 2. Name the action (cut hollow nouns)
 
@@ -110,6 +111,7 @@ Apply as a **diagnose → revise** loop. Do not lecture the user about the book.
 - Connect sentence starts to what came before (same topic thread)
 - Use light transitions only when the jump is real
 - Prefer topic continuity over decorative connectors (_furthermore_, _moreover_)
+- Across the whole piece, call one entity by one name (don't drift between "the team," "they," and "engineering" for the same actor); restate a section's point before you subdivide it
 
 ### 5. Concision
 
@@ -125,6 +127,7 @@ Delete or rewrite:
 - Put the stress at the **end** of the sentence or paragraph
 - Keep the main claim out of a weak trailing clause
 - One primary emphasis per sentence
+- Use a cleft ("What changed is…", "It was the API limit that…") or a trailing modifier to land stress deliberately, not just default word order (see `references/rules-cheatsheet.md` for the fuller device list)
 
 ### 7. Shape
 
@@ -132,6 +135,7 @@ Delete or rewrite:
 - State the **point early** (not after a long wind-up)
 - **Develop** with short paragraphs (often 2–4 sentences)
 - **Close** with the ask, next step, or takeaway
+- For longer pieces, structure around problem → response → so-what, not just open/point/develop/close
 
 ### 8. Audience fit
 
@@ -140,11 +144,24 @@ Delete or rewrite:
 - For marketing: clarity + energy; avoid vague superlatives without proof
 - For support: acknowledge → answer → action
 
-### 9. Fidelity to attribution
+### 9. Fidelity and honesty
 
 - Keep every claim attached to whoever actually said or believed it in the source.
 - Do not turn a third party's quoted characterization, hedge, guess, or open question into the subject's own confident statement.
 - If the source marks something as unresolved, contested, or provisional, keep that status. Do not resolve it for them.
+- Don't use vagueness, passive voice, or stacked hedges to blur who owns bad news, or to inflate a claim past what the facts support. Clarity is a courtesy to the reader; don't spend it on obscuring instead of informing.
+
+### 10. Elegance
+
+- Vary sentence length and rhythm; a run of same-length sentences reads flat
+- Give parallel items parallel grammar (all nouns, or all verbs, not a mix)
+- Don't swap in a synonym for the same referent just to avoid repeating a word ("elegant variation") — it makes the reader wonder if you mean something different
+
+### 11. Correctness without folklore
+
+- Fix real errors: subject-verb agreement, dangling modifiers, unclear pronoun reference
+- Leave classroom folklore alone unless house style demands it: split infinitives, sentence-final prepositions, "which" only for nonrestrictive clauses, and starting a sentence with "and" or "but" are not errors
+- See `references/rules-cheatsheet.md` for the real-vs-folklore table
 
 ## Revise checklist
 
@@ -159,6 +176,10 @@ Before finishing, scan for:
 - [ ] Wrong length for the channel (essay-length Slack message, etc.)
 - [ ] Full rewrite when only a small edit was requested
 - [ ] A source's hedge, question, or someone else's characterization rewritten as the subject's own confident claim
+- [ ] Same entity named the same way throughout (no drifting labels for one actor or system)
+- [ ] Passive voice or a nominalization kept only where it earns its place (unknown actor, topic continuity, deliberate stress shift)
+- [ ] Vagueness or hedging isn't hiding who owns bad news or inflating a claim
+- [ ] Folklore grammar rules not "corrected" into stiffness
 
 ## Before / after examples
 
@@ -209,7 +230,7 @@ If the user asks to tighten one paragraph or fix tone in one place:
 
 For denser revision moves and more examples, open:
 
-- `references/rules-cheatsheet.md`
+- `references/rules-cheatsheet.md` — common rewrites, channel lengths, tone dials, emphasis devices (cleft sentences, resumptive/summative/free modifiers), extended concision patterns, correctness real-vs-folklore table, and elegance examples
 - `references/examples.md`
 
 Only open these for long drafts or weak first passes.

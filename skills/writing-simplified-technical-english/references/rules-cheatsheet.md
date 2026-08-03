@@ -4,10 +4,17 @@ Use only when you need a denser pass. Core skill rules still apply.
 
 ## Sentence design
 
-- Prefer under ~20–25 words when the idea is simple
+- Procedural sentences: ~20 words or fewer. Descriptive sentences: ~25 words or fewer.
 - One instruction or one claim per sentence in procedures
 - Prefer SVO (subject–verb–object) order
 - Avoid nested subordinate clauses in steps
+- Do not cut articles, verbs, or subjects just to hit a word count; that adds ambiguity, not clarity
+- Cap stacked nouns before a head noun at three words; rewrite longer chains
+
+## Paragraph design
+
+- Limit paragraphs to about six sentences
+- One topic per paragraph; start a new paragraph when the topic shifts
 
 ## Voice and mood
 
@@ -16,6 +23,13 @@ Use only when you need a denser pass. Core skill rules still apply.
 | User/operator action | Imperative: “Open the file.” |
 | System behavior | Active present: “The service returns 404.” |
 | Unknown actor / focus on object | Passive is OK: “The key is stored in…” |
+
+**Tense**
+
+- Steps: imperative
+- States/behavior: simple present
+- Completed events: simple past
+- Avoid future “will” and progressive “-ing” forms in procedures and descriptions
 
 ## Terminology consistency
 

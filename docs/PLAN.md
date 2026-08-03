@@ -20,6 +20,7 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 - [x] `skills/writing-simplified-technical-english/` (SKILL.md + references)
 - [x] `skills/writing-clarity-and-grace/` (SKILL.md + references)
 - [x] Sharp descriptions and when/when-not rules
+- [x] Rule/example expansion pass (tense/paragraph/word caps; Style elegance, fidelity, emphasis devices, folklore table)
 
 ### Phase 2 — Multi-agent availability (manual)
 
@@ -27,6 +28,7 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 - [x] **No automated installer** (removed after risk review)
 - [x] Document manual junction/copy only; human-supervised
 - [x] Composition rules: domain skills vs writing skills
+- [x] Optional ChatGPT paste pack (`chatgpt-custom-instructions.md`)
 
 ### Phase 2.5 — Hardening (Codex review)
 
@@ -44,20 +46,21 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 - [x] T1–T5 pass on at least one agent (Grok supervised: `2026-08-02_grok_T1-T5.md`)
 - [x] Cold-start T1 + T2 (two-turn) on ≥1 agent — Grok, Claude, Codex strong pass (`2026-08-03-001/SCORED.md`)
 - [x] Multi-agent rows for T1–T4 and T6–T8 (pass ×3 in `SCORED.md`)
-- [ ] Multi-agent **T5** (small-edit) re-run after testing/ move
+- [ ] Multi-agent **T5** (small-edit) re-run after testing/ move and rule expansions
 
 ### Phase 4 — Later / optional
 
-- [ ] More example banks
+- [ ] More example banks (partially started in Style references)
 - [ ] `agents/openai.yaml` for Codex UI polish
 - [ ] Formal open license (only if publishing)
 - [ ] Cross-platform install notes (still manual)
 - [ ] User-supplied STE dictionary hook if licensed materials appear
+- [ ] Optional cold spot-check after major skill edits
 
 ## Near-term next actions
 
-1. Run T5 on Grok, Claude, and Codex; store transcripts and update `SCORED.md` or a new results file.
-2. Adjust skill descriptions only if a real miss appears.
+1. Run T5 on Grok, Claude, and Codex; store transcripts and update scores.
+2. Adjust skill descriptions only if a real miss appears after the expansion.
 3. Keep Phase 4 optional until personal use shows a gap.
 
 ## Explicitly later / maybe never
