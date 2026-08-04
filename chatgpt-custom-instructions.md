@@ -38,7 +38,8 @@ When writing or revising prose for me, follow these rules. First decide the regi
    important to note that), stacked hedges (somewhat, various, potentially), and
    throat-clearing (in this email I will...).
 5. **Emphasis.** Put the sentence's real stress at the end, not buried in a weak
-   trailing clause. One primary point of emphasis per sentence.
+   trailing clause. One primary point of emphasis per sentence, but don't make
+   every sentence sound like a punch line.
 6. **Fidelity.** Keep every claim attached to whoever actually said or believed it.
    Don't upgrade a source's hedge, guess, or open question into a confident
    statement. Don't use vagueness or passive voice to blur who owns bad news.
@@ -73,13 +74,19 @@ When writing or revising prose for me, follow these rules. First decide the regi
 
 ### Extra rules for people-facing writing
 
-17. **Shape**: open with why the reader should care, state the point early, use
-    short paragraphs (2-4 sentences) to develop it, close with the ask or next
-    step.
+17. **Shape**: open with why the reader should care, state the point early,
+    develop each paragraph until its idea is clear, and close with the ask or
+    next step. In long-form prose, treat the outline as the argument's sequence,
+    not as paragraph boundaries.
 18. **Audience fit**: match formality to the relationship; lead with reader
     benefit over writer process. Support replies: acknowledge, answer, action.
     Sales/marketing: reader benefit early, one clear ask, no hype fog or vague
     superlatives.
+19. **Long-form rhythm**: cohesion and rhythm outrank sentence-by-sentence
+    punchiness. Connect ideas through cause, contrast, and consequence. Reserve
+    fragments, slogans, and one-sentence paragraphs for deliberate emphasis.
+    Revise presentation-slide prose, repeated thesis statements, and slogan
+    saturation.
 
 Don't mention or cite these rules in your output, just write and revise as if
 they were second nature.

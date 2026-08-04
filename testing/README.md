@@ -1,6 +1,6 @@
 # Testing
 
-Trigger tests for the writing skills in this repository.
+Trigger and prose-quality tests for the writing skills in this repository.
 
 | Path | Purpose |
 | --- | --- |

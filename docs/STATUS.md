@@ -1,11 +1,15 @@
 # Status — skill-writing
 
-**Last updated:** 2026-08-03  
-**Phase:** 3 — Smoke-check complete for cold auto-invoke; skill rules expanded; multi-agent T5 still open
+**Last updated:** 2026-08-04
+**Phase:** 3 — Short-form smoke-check complete; long-form T9 ready for multi-agent runs
 
 ## Current state (plain English)
 
-Two writing skills live under `skills/` with **expanded rules and examples** (Style: elegance, fidelity, emphasis devices, correctness vs folklore; STE: word/tense/paragraph caps). Trigger tests and scored multi-agent results live under `testing/`. Cold T1–T2 and T3–T4/T6–T8 passed on Grok, Claude, and Codex (`2026-08-03-001/SCORED.md`). **T5** multi-agent re-run still open. Optional **ChatGPT** one-block custom instructions live at repo root (`chatgpt-custom-instructions.md`). Installer remains removed.
+Two writing skills live under `skills/`. The clarity-and-grace skill now
+includes genre-specific long-form guidance, cadence checks, and a
+multi-paragraph example. T9 provides a neutral 700–900 word article test for
+Codex, Claude, and Grok. Existing short-form tests passed across all three
+agents; multi-agent T5 and T9 runs remain open.
 
 ## What exists
 
@@ -13,10 +17,10 @@ Two writing skills live under `skills/` with **expanded rules and examples** (St
 | --- | --- |
 | Docs / agent rules | Aligned with `testing/` + current skill scope |
 | `skills/writing-simplified-technical-english` | Present; hard rules + cheatsheet expanded |
-| `skills/writing-clarity-and-grace` | Present; principles 9–11 + cheatsheet/examples expanded |
-| `chatgpt-custom-instructions.md` | Paste pack for ChatGPT (merged registers) |
+| `skills/writing-clarity-and-grace` | Present; explicit long-form flow, paragraph, cadence, and anti-pattern guidance |
+| `chatgpt-custom-instructions.md` | Paste pack synchronized with long-form guidance |
 | Installer | **Removed** (by design) |
-| `testing/` | Neutral fixtures, two-turn cold protocol, multi-agent scores |
+| `testing/` | Neutral fixtures, two-turn cold protocol, T9 long-form test, multi-agent scores |
 | Git | Remote `origin` (private GitHub) |
 
 ## What’s working
@@ -24,21 +28,30 @@ Two writing skills live under `skills/` with **expanded rules and examples** (St
 - Two-skill split with when/when-not, composition, and small-edit rules
 - Neutral fixtures + cold auto-invoke measured (T1/T2 ×3 agents)
 - Richer Style and STE guidance for harder revision moves
+- Long-form rules counter presentation-slide prose without flattening short formats
 - ChatGPT path without skill routing (single instruction block)
 
 ## What’s blocked / unknown
 
 - Multi-agent **T5** (small-edit) not re-run after testing/ move and rule expansions
+- Multi-agent **T9** long-form outputs not run or scored yet
 - Whether expanded rules need a light cold re-smoke (optional; not required unless quality drops)
 - Independent `Score-Codex.md` may differ slightly from `SCORED.md` on a few cells
 
 ## Next 1–3 steps
 
-1. Run multi-agent T5; log under `testing/test-results/`
-2. Optional: quick cold T1/T2 spot-check after rule expansions if agents misbehave
-3. Phase 4 only if personal use shows a gap (more examples, formal license, etc.)
+1. Run multi-agent T9; preserve and score each raw article
+2. Run multi-agent T5; log under `testing/test-results/`
+3. Adjust the skill only if the new evidence exposes another gap
 
 ## Session log (newest first)
+
+### 2026-08-04 — Long-form cadence hardening
+
+- Replaced blanket short-paragraph guidance with genre-sensitive development.
+- Added outline-to-argument rules and warnings for slide prose, fragment chains, repeated thesis statements, and slogan saturation.
+- Added a multi-paragraph example and synchronized the ChatGPT paste pack.
+- Added neutral T9 fixture, prompt, rubric, and result fields; model runs remain pending.
 
 ### 2026-08-03 — Skill rule expansions + ChatGPT pack (other agent)
 

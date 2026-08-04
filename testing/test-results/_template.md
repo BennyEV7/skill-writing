@@ -21,6 +21,7 @@ Copy this file to `YYYY-MM-DD_<agent>_<scope>.md` and fill it in.
 | T6 | pass / fail / skip | | | | | optional |
 | T7 | pass / fail / skip | | | | | optional |
 | T8 | pass / fail / skip | | | | | optional |
+| T9 | pass / fail / skip | | | | Style long-form | |
 
 **Cold auto-invoke (T1 + T2 strong pass on this agent):** yes / no / partial  
 **Phase 3 gate note:** (e.g. strong cold T1–T2, or only warm/supervised)
@@ -101,6 +102,19 @@ Copy this file to `YYYY-MM-DD_<agent>_<scope>.md` and fill it in.
 - **Result:** pass / fail / skip
 - **Skill claimed (quote):**
 - **Why claimed (quote):**
+- **Notes:**
+
+### T9
+
+- **Result:** pass / fail / skip
+- **Mode:** cold / warm / supervised
+- **Skill claimed (quote):**
+- **Why claimed (quote):**
+- **Facts preserved?** yes / no
+- **Sustained argument?** yes / no
+- **Developed paragraphs?** yes / no
+- **Varied cadence?** yes / no
+- **Presentation-slide prose avoided?** yes / no
 - **Notes:**
 
 ## Follow-ups

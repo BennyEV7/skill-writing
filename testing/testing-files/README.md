@@ -14,5 +14,6 @@ Why: fixtures about “writing skills” can prime agents and hide cold-start ro
 | `t6-mixed-update.md` | T6 | Ambiguous “make this clearer” |
 | `t7-domain-summary-raw.md` | T7 | Domain-like raw notes → clear summary |
 | `t8-product-facts.md` | T8 | Facts → short landing blurb |
+| `t9-long-form-article-outline.md` | T9 | Outline → sustained 700–900 word article |
 
 Do not put skill names, STE, or Style references in these fixtures.

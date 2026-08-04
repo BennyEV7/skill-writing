@@ -6,6 +6,16 @@ Format: newest first. Keep each entry short. To reverse a decision, add a new en
 
 ---
 
+## D-013 — Long-form prose needs explicit cadence guidance
+
+- **Date:** 2026-08-04
+- **Status:** Accepted
+- **Decision:** Give articles genre-specific paragraph and cadence guidance. Treat outlines as argument sequences rather than paragraph maps. Test sustained prose with a neutral long-form fixture across Codex, Claude, and Grok.
+- **Why:** Short-paragraph, concision, and emphasis rules can combine into presentation-slide prose when agents apply them mechanically to articles.
+- **Consequences:** The clarity-and-grace skill and ChatGPT pack warn against fragment chains, slogan saturation, and equal emphasis. T9 measures long-form cohesion, paragraph development, cadence, and factual fidelity.
+
+---
+
 ## D-012 — ChatGPT uses a paste pack, not a third skill tree
 
 - **Date:** 2026-08-03

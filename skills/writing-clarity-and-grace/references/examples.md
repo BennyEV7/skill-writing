@@ -2,10 +2,10 @@
 
 ## Delay email
 
-**Before:**  
+**Before:**
 I wanted to take a moment to touch base regarding the fact that there may be a potential delay that could impact timelines.
 
-**After:**  
+**After:**
 We need to delay the launch by one week (new date: 15 Aug).  
 QA found a billing edge case we will not ship around. I will send a fix plan tomorrow morning.
 
@@ -17,6 +17,35 @@ In today’s fast-paced world, many organizations are beginning to realize the i
 **After:**  
 Most teams do not have a documentation problem. They have a “nobody can find the decision” problem.  
 Here is a lightweight system we use so agents and humans share one source of truth.
+
+## Long-form article flow
+
+**Before:**
+The inventory count is accurate. The scanners work. The dashboard is green.
+But pickers still lose pallets during shift changes.
+
+The handoff is the problem. The outbound team moves a pallet. The scanner
+records the move. The receiving team does not get a shared handoff note.
+
+The answer is not more scanning. It is a better handoff. Supervisors should not
+have to call the previous shift to find a pallet.
+
+**After:**
+An accurate inventory count does not guarantee that the next shift can find
+every pallet. During a shift change, the outbound team may move a pallet and
+scan its new location correctly, yet the receiving team can still begin work
+without a shared handoff note. The dashboard remains green while the picker
+searches the old staging lane.
+
+That gap persists because the scanner records the transaction, not the context
+the next team needs. When the location alone does not explain which work is
+complete or what changed near the end of the shift, supervisors recover the
+missing context by calling the people who just left. The system is accurate,
+but the operation still depends on memory and interruption.
+
+More scanning would create another record of the same move. A standard handoff
+would connect that record to the work the receiving team must continue, so the
+next shift can act without reconstructing the previous one.
 
 ## Announcement
 

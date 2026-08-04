@@ -1,6 +1,7 @@
 # Trigger tests — writing skills
 
-**Purpose:** Measure whether agents pick the right writing skill and follow small-edit / override rules.  
+**Purpose:** Measure skill selection, override behavior, small-edit discipline,
+and long-form prose quality.
 **Last updated:** 2026-08-03
 
 Skills under test:
@@ -28,6 +29,9 @@ Phase 3 **passes** when:
 4. Failures either get a skill-description / when-not fix, or an explicit “accepted limitation” note in `docs/STATUS.md`.
 
 Optional stretch: T6–T8 and multi-agent rows.
+
+Long-form acceptance: T9 passes on Codex, Claude, and Grok from the same
+fixture and prompt. Preserve each raw output before scoring.
 
 Supervised or same-thread runs are useful for application quality but **do not** alone prove cold auto-invocation.
 
@@ -60,6 +64,7 @@ Supervised or same-thread runs are useful for application quality but **do not**
 1. **Fresh session A:** T1 only (turns 1–2) — cold auto STE  
 2. **Fresh session B:** T2 only (turns 1–2) — cold auto Style  
 3. **One warm thread (optional):** T3 → T4 → T5 — overrides + small-edit  
+4. **Fresh session C:** T9 — long-form Style quality
 
 Label same-thread runs `…_same-thread` or `…_warm`.
 
@@ -141,6 +146,7 @@ Overrides **should** name the skill or style on turn 1. Self-report may be turn 
 | T6 | `testing-files/t6-mixed-update.md` | Ask or context default | Optional cold | No silent wrong full style swap |
 | T7 | `testing-files/t7-domain-summary-raw.md` | Domain structure + writing polish | Warm OK | Facts preserved; prose improved |
 | T8 | `testing-files/t8-product-facts.md` | Style, not STE | Optional cold | Benefit-led blurb; not robotic procedure |
+| T9 | `testing-files/t9-long-form-article-outline.md` | Style long-form | Optional cold | Connected argument; developed paragraphs; varied cadence; facts preserved |
 
 ---
 
@@ -202,6 +208,14 @@ Write a short landing-page blurb using only the facts in testing/testing-files/t
 Show the result in chat only. Do not create, edit, or delete any files.
 ```
 
+### T9 — turn 1
+
+```text
+Using only the facts in testing/testing-files/t9-long-form-article-outline.md,
+write a 700–900 word article for warehouse operations managers.
+Show the result in chat only. Do not create, edit, or delete any files.
+```
+
 ---
 
 ## Scoring
@@ -259,6 +273,17 @@ Show the result in chat only. Do not create, edit, or delete any files.
 
 - **Pass:** Benefit-led, concise; light emphasis OK.  
 - **Fail:** Operator-manual STE; empty superlatives only.
+
+#### T9
+
+- **Pass:** Preserves the facts and uncertainty; develops a sustained argument;
+  connects paragraphs through cause, contrast, and consequence; varies sentence
+  length; reserves short emphasis for useful moments.
+- **Fail:** Invented metrics or results; one outline bullet per paragraph;
+  fragment chains; repeated thesis or binary slogans; presentation-slide prose
+  instead of an article.
+- **Multi-model rule:** Use the exact same fixture and prompt for Codex, Claude,
+  and Grok. Preserve raw outputs and score them independently.
 
 ---
 

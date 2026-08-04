@@ -78,7 +78,7 @@ Use one stated default instead of improvising a different split each time.
 | Genre                           | Intensity                                                    |
 | ------------------------------- | ------------------------------------------------------------ |
 | Stakeholder email / status note | Clarity + concision; warm but direct                         |
-| Blog / article                  | Full shape: open, point, develop, close                      |
+| Blog / article                  | Sustained argument; developed paragraphs; varied cadence     |
 | Marketing / landing             | Clarity first; allow emphasis, rhythm, and CTA; not STE-flat |
 | Support reply                   | Empathy + clear next step; short paragraphs                  |
 | Sales                           | Reader benefit early; one ask; no hype fog                   |
@@ -127,15 +127,25 @@ Delete or rewrite:
 - Put the stress at the **end** of the sentence or paragraph
 - Keep the main claim out of a weak trailing clause
 - One primary emphasis per sentence
+- Do not make every sentence sound like a punch line; contrast gives emphasis its force
 - Use a cleft ("What changed is…", "It was the API limit that…") or a trailing modifier to land stress deliberately, not just default word order (see `references/rules-cheatsheet.md` for the fuller device list)
 
 ### 7. Shape
 
 - **Open** with why the reader should care (one beat)
 - State the **point early** (not after a long wind-up)
-- **Develop** with short paragraphs (often 2–4 sentences)
+- **Develop** each paragraph until its idea is clear; length follows the genre and argument
 - **Close** with the ask, next step, or takeaway
 - For longer pieces, structure around problem → response → so-what, not just open/point/develop/close
+
+### 7a. Long-form articles
+
+- Treat the outline as a content and sequence contract, not a paragraph map
+- Build paragraphs around a claim and the support, example, implication, or transition that develops it
+- Connect sections through cause, contrast, and consequence instead of restarting the thesis
+- Let cohesion and rhythm outrank sentence-by-sentence punchiness
+- Reserve fragments, slogan lines, clefts, and one-sentence paragraphs for moments that deserve extra stress
+- Revise presentation-slide prose: fragment chains, repeated binary constructions, slogan saturation, and one outline bullet per paragraph
 
 ### 8. Audience fit
 
@@ -154,6 +164,7 @@ Delete or rewrite:
 ### 10. Elegance
 
 - Vary sentence length and rhythm; a run of same-length sentences reads flat
+- In long-form prose, mix sentence shapes and paragraph lengths without sacrificing topic continuity
 - Give parallel items parallel grammar (all nouns, or all verbs, not a mix)
 - Don't swap in a synonym for the same referent just to avoid repeating a word ("elegant variation") — it makes the reader wonder if you mean something different
 
@@ -173,6 +184,10 @@ Before finishing, scan for:
 - [ ] Broken topic flow between sentences
 - [ ] Empty openers and stacked hedges
 - [ ] Main point buried; weak endings
+- [ ] Outline bullets copied into separate answer-card paragraphs
+- [ ] Fragment chains or repeated short declarative sentences
+- [ ] Thesis, binary contrast, or positioning line repeated instead of advanced
+- [ ] Every sentence carrying equal emphasis, with no cadence or connective tissue
 - [ ] Wrong length for the channel (essay-length Slack message, etc.)
 - [ ] Full rewrite when only a small edit was requested
 - [ ] A source's hedge, question, or someone else's characterization rewritten as the subject's own confident claim

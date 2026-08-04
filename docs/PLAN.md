@@ -1,6 +1,6 @@
 # Plan — skill-writing
 
-**Last updated:** 2026-08-03  
+**Last updated:** 2026-08-04
 **Horizon:** Safe personal use of global writing skills (no automated installer)
 
 ## North star
@@ -47,6 +47,8 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 - [x] Cold-start T1 + T2 (two-turn) on ≥1 agent — Grok, Claude, Codex strong pass (`2026-08-03-001/SCORED.md`)
 - [x] Multi-agent rows for T1–T4 and T6–T8 (pass ×3 in `SCORED.md`)
 - [ ] Multi-agent **T5** (small-edit) re-run after testing/ move and rule expansions
+- [x] T9 neutral long-form fixture, prompt, and rubric
+- [ ] Multi-agent **T9** long-form run on Codex, Claude, and Grok
 
 ### Phase 4 — Later / optional
 
@@ -59,9 +61,9 @@ Agents reliably use STE-inspired rules for in-project technical writing and Styl
 
 ## Near-term next actions
 
-1. Run T5 on Grok, Claude, and Codex; store transcripts and update scores.
-2. Adjust skill descriptions only if a real miss appears after the expansion.
-3. Keep Phase 4 optional until personal use shows a gap.
+1. Run T9 on Grok, Claude, and Codex; preserve and score the raw outputs.
+2. Run T5 on Grok, Claude, and Codex; store transcripts and update scores.
+3. Adjust skill guidance only if those runs expose a real miss.
 
 ## Explicitly later / maybe never
 

@@ -11,6 +11,9 @@ Use when a draft feels muddy. Diagnose first; then revise.
 5. Can any sentence lose 20% of its words without losing meaning?
 6. Where is the main point? early enough?
 7. What must the reader do after reading?
+8. Does each paragraph develop an idea, or merely announce one?
+9. Do short sentences create useful emphasis, or has every sentence become a beat?
+10. Does each section advance the argument instead of restating the thesis?
 
 ## Common rewrites
 
@@ -42,6 +45,26 @@ Use when a draft feels muddy. Diagnose first; then revise.
 - **More warm:** one human acknowledgment, then substance  
 - **More urgent:** deadline and consequence early; still polite  
 - **More persuasive:** concrete outcome, proof, single CTA  
+
+## Long-form cadence
+
+Treat the outline as a sequence of ideas, not a set of paragraph breaks. Build
+enough context, support, and consequence around each idea for the reader to
+follow the argument.
+
+| Anti-pattern | Revision move |
+| --- | --- |
+| One outline bullet per paragraph | Combine related points and show how they affect one another |
+| Presentation-slide prose | Join fragments and short declarations through cause, contrast, or consequence |
+| Slogan at every paragraph ending | Keep the strongest line; let other paragraphs transition |
+| Repeated “X is not Y. It is Z.” constructions | Vary the syntax and advance the claim with evidence or implication |
+| Every sentence at maximum emphasis | Use quieter connective sentences so important lines can land |
+| New metaphor in each section | Keep one useful frame or return to concrete language |
+
+For articles, run a separate cadence pass after the factual and structural
+revision. Read paragraph openings and endings in sequence. Check that the topic
+continues, sentence lengths vary, and each section leaves the reader somewhere
+new.
 
 ## Avoid
 
